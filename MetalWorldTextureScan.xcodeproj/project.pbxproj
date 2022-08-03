@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6651E5E526E489A700245ED5 /* MeshHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651E5E426E489A700245ED5 /* MeshHelpers.swift */; };
-		83C212FE250EE8E9007411C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C212FD250EE8E9007411C2 /* AppDelegate.swift */; };
-		83C21300250EE8E9007411C2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 83C212FF250EE8E9007411C2 /* Shaders.metal */; };
+		09F88CDC289A072900E5CE6C /* MeshHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F88CDB289A072900E5CE6C /* MeshHelpers.swift */; };
+		09F88CE2289A073400E5CE6C /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F88CDE289A073400E5CE6C /* Renderer.swift */; };
+		09F88CE3289A073400E5CE6C /* MeshHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F88CE1289A073400E5CE6C /* MeshHelpers.swift */; };
+		09F88CE4289A073400E5CE6C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 09F88CDF289A073400E5CE6C /* Shaders.metal */; };
+		09F88CE5289A073400E5CE6C /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F88CDD289A073400E5CE6C /* ScanViewController.swift */; };
+		09F88CE7289A073B00E5CE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F88CE6289A073B00E5CE6C /* AppDelegate.swift */; };
 		83C21308250EE8EA007411C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C21306250EE8EA007411C2 /* Main.storyboard */; };
-		83C2130A250EE8EC007411C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C21309250EE8EC007411C2 /* Assets.xcassets */; };
 		83C2130D250EE8EC007411C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C2130B250EE8EC007411C2 /* LaunchScreen.storyboard */; };
-		B0FCE25927C74B6500942743 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCE25827C74B6500942743 /* ScanViewController.swift */; };
-		B0FCE25B27C74BF700942743 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCE25A27C74BF700942743 /* Renderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6651E5E426E489A700245ED5 /* MeshHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshHelpers.swift; sourceTree = "<group>"; };
+		09F88CDB289A072900E5CE6C /* MeshHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshHelpers.swift; path = MetalWorldTextureScan/MeshHelpers.swift; sourceTree = SOURCE_ROOT; };
+		09F88CDD289A073400E5CE6C /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScanViewController.swift; path = MetalWorldTextureScan/ScanViewController.swift; sourceTree = SOURCE_ROOT; };
+		09F88CDE289A073400E5CE6C /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Renderer.swift; path = MetalWorldTextureScan/Renderer.swift; sourceTree = SOURCE_ROOT; };
+		09F88CDF289A073400E5CE6C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = MetalWorldTextureScan/Shaders.metal; sourceTree = SOURCE_ROOT; };
+		09F88CE0289A073400E5CE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = MetalWorldTextureScan/Info.plist; sourceTree = SOURCE_ROOT; };
+		09F88CE1289A073400E5CE6C /* MeshHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshHelpers.swift; path = MetalWorldTextureScan/MeshHelpers.swift; sourceTree = SOURCE_ROOT; };
+		09F88CE6289A073B00E5CE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MetalWorldTextureScan/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		09F88CEA289A074800E5CE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09F88CEC289A074800E5CE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		09F88CED289A074800E5CE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MetalWorldTextureScan/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		83C212FA250EE8E9007411C2 /* MetalWorldTextureScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalWorldTextureScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C212FD250EE8E9007411C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83C212FF250EE8E9007411C2 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		83C21307250EE8EA007411C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83C21309250EE8EC007411C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C2130C250EE8EC007411C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83C2130E250EE8EC007411C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0FCE25827C74B6500942743 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
-		B0FCE25A27C74BF700942743 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F88CE8289A074800E5CE6C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				09F88CE9289A074800E5CE6C /* LaunchScreen.storyboard */,
+				09F88CEB289A074800E5CE6C /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
 		83C212F1250EE8E9007411C2 = {
 			isa = PBXGroup;
 			children = (
-				83C212FC250EE8E9007411C2 /* MetalWorldTextureScan */,
+				09F88CE0289A073400E5CE6C /* Info.plist */,
+				09F88CDB289A072900E5CE6C /* MeshHelpers.swift */,
+				09F88CE1289A073400E5CE6C /* MeshHelpers.swift */,
+				09F88CED289A074800E5CE6C /* Assets.xcassets */,
+				09F88CE8289A074800E5CE6C /* Base.lproj */,
+				09F88CE6289A073B00E5CE6C /* AppDelegate.swift */,
+				09F88CDE289A073400E5CE6C /* Renderer.swift */,
+				09F88CDF289A073400E5CE6C /* Shaders.metal */,
+				83C21306250EE8EA007411C2 /* Main.storyboard */,
+				83C2130B250EE8EC007411C2 /* LaunchScreen.storyboard */,
+				09F88CDD289A073400E5CE6C /* ScanViewController.swift */,
 				83C212FB250EE8E9007411C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,23 +78,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		83C212FC250EE8E9007411C2 /* MetalWorldTextureScan */ = {
-			isa = PBXGroup;
-			children = (
-				83C212FD250EE8E9007411C2 /* AppDelegate.swift */,
-				B0FCE25827C74B6500942743 /* ScanViewController.swift */,
-				B0FCE25A27C74BF700942743 /* Renderer.swift */,
-				83C212FF250EE8E9007411C2 /* Shaders.metal */,
-				6651E5E426E489A700245ED5 /* MeshHelpers.swift */,
-				83C21306250EE8EA007411C2 /* Main.storyboard */,
-				83C21309250EE8EC007411C2 /* Assets.xcassets */,
-				83C2130B250EE8EC007411C2 /* LaunchScreen.storyboard */,
-				83C2130E250EE8EC007411C2 /* Info.plist */,
-			);
-			name = MetalWorldTextureScan;
-			path = /Users/quentinreiser/Desktop/MetalWorldTextureScan/MetalWorldTextureScan;
-			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -137,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83C2130D250EE8EC007411C2 /* LaunchScreen.storyboard in Resources */,
-				83C2130A250EE8EC007411C2 /* Assets.xcassets in Resources */,
 				83C21308250EE8EA007411C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,17 +153,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C21300250EE8E9007411C2 /* Shaders.metal in Sources */,
-				6651E5E526E489A700245ED5 /* MeshHelpers.swift in Sources */,
-				B0FCE25B27C74BF700942743 /* Renderer.swift in Sources */,
-				83C212FE250EE8E9007411C2 /* AppDelegate.swift in Sources */,
-				B0FCE25927C74B6500942743 /* ScanViewController.swift in Sources */,
+				09F88CE4289A073400E5CE6C /* Shaders.metal in Sources */,
+				09F88CDC289A072900E5CE6C /* MeshHelpers.swift in Sources */,
+				09F88CE3289A073400E5CE6C /* MeshHelpers.swift in Sources */,
+				09F88CE2289A073400E5CE6C /* Renderer.swift in Sources */,
+				09F88CE7289A073B00E5CE6C /* AppDelegate.swift in Sources */,
+				09F88CE5289A073400E5CE6C /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		09F88CE9289A074800E5CE6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F88CEA289A074800E5CE6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		09F88CEB289A074800E5CE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09F88CEC289A074800E5CE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		83C21306250EE8EA007411C2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z3FCBX74E9;
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
 				INFOPLIST_FILE = "$(SRCROOT)/MetalWorldTextureScan/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,7 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z3FCBX74E9;
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
 				INFOPLIST_FILE = "$(SRCROOT)/MetalWorldTextureScan/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
